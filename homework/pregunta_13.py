@@ -27,4 +27,4 @@ def pregunta_13():
     df = df_tbl0.merge(df_tbl2[['c0','c5b']], how = 'left', on= 'c0')
     df = df.groupby(by = 'c1').sum('c5b')
     return df['c5b']
-print(pregunta_13())
+# print(pregunta_13())

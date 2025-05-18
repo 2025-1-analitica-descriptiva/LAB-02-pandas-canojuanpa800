@@ -32,5 +32,5 @@ def pregunta_12():
     df['c5'] = df.groupby('c0')['c5'].transform(lambda x: ','.join(x))
     df = df[['c0','c5']].drop_duplicates().reset_index(drop=True)
     return df.sort_values(by='c0')
-print(pregunta_12())
+# print(pregunta_12())
 

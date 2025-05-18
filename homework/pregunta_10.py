@@ -30,4 +30,4 @@ def pregunta_10():
     df = df[['c1','c2']].drop_duplicates()
     df =  df.set_index('c1').sort_index()
     return df
-print(pregunta_10())
+# print(pregunta_10())

@@ -25,4 +25,4 @@ def pregunta_04():
     # print(df)
     return df.groupby(by='c1').mean(['c2'])['c2']
 
-print(pregunta_04())
+# print(pregunta_04())

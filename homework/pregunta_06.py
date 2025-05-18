@@ -23,4 +23,4 @@ def pregunta_06():
     return ans
     
 
-print(pregunta_06())
+# print(pregunta_06())

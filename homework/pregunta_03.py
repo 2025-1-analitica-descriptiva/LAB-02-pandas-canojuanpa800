@@ -26,4 +26,4 @@ def pregunta_03():
     # print(df)
     return df.groupby(by='c1').count()['c0'] 
 
-print(pregunta_03())
+# print(pregunta_03())

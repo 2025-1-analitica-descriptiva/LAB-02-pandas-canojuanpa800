@@ -28,4 +28,4 @@ def pregunta_08():
     df['suma'] = df['c0'] + df['c2']
     return df
 
-print(pregunta_08())
+# print(pregunta_08())

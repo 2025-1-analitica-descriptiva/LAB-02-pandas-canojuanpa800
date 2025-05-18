@@ -27,4 +27,4 @@ def pregunta_07():
     # print(df)
     return df.groupby(by='c1').sum()['c2'] 
 
-print(pregunta_07())
+# print(pregunta_07())

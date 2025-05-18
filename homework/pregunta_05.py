@@ -24,4 +24,4 @@ def pregunta_05():
     # print(df)
     return df.groupby(by='c1').max()['c2'] 
 
-print(pregunta_05())
+# print(pregunta_05())
